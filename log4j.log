@@ -1,0 +1,38 @@
+2018-08-12 22:32:25,601 INFO  - Method save is called in TrainerDao
+2018-08-12 22:32:26,555 INFO  - Trainer Andrei Reut has been saved successfully 
+2018-08-12 22:32:26,556 INFO  - Method save is called in TrainerDao
+2018-08-12 22:32:26,586 INFO  - Trainer Ivan Ivanov has been saved successfully 
+2018-08-12 22:32:26,586 INFO  - Method save is called in TrainerDao
+2018-08-12 22:32:26,613 INFO  - Trainer Petr Petrov has been saved successfully 
+2018-08-12 22:32:26,614 INFO  - Method getAllTrainers is called in TrainerDao
+2018-08-12 22:32:26,617 INFO  - List of trainees: [Trainer(id=1, name=Andrei Reut, language=Java, experience=6), Trainer(id=2, name=Ivan Ivanov, language=C++, experience=4), Trainer(id=3, name=Petr Petrov, language=C#, experience=5)]
+2018-08-12 22:32:26,618 INFO  - Method getById is called in TrainerDao
+2018-08-12 22:32:26,620 INFO  - Trainer(id=1, name=Andrei Reut, language=Java, experience=6) has been found successfully!
+2018-08-12 22:32:26,623 INFO  - Method save is called in TraineeDao
+2018-08-12 22:32:26,640 INFO  - Trainee Olga Borzdyko has been saved successfully!
+2018-08-12 22:32:26,640 INFO  - Method save is called in TraineeDao
+2018-08-12 22:32:26,677 INFO  - Trainee Denis Byhovsky has been saved successfully!
+2018-08-12 22:32:26,678 INFO  - Method save is called in TraineeDao
+2018-08-12 22:32:26,693 INFO  - Trainee Sergei Sergeev has been saved successfully!
+2018-08-12 22:32:26,694 INFO  - Method getAllTrainers is called in TrainerDao
+2018-08-12 22:32:26,696 INFO  - List of trainees: [Trainer(id=1, name=Andrei Reut, language=Java, experience=6), Trainer(id=2, name=Ivan Ivanov, language=C++, experience=4), Trainer(id=3, name=Petr Petrov, language=C#, experience=5)]
+2018-08-12 22:32:26,696 INFO  - Method delete is called in TrainerDao
+2018-08-12 22:32:26,725 INFO  - Trainers with name 'petr' have been deleted successfully!
+2018-08-12 22:32:26,726 INFO  - Method getAllTrainers is called in TrainerDao
+2018-08-12 22:32:26,728 INFO  - List of trainees: [Trainer(id=1, name=Andrei Reut, language=Java, experience=6), Trainer(id=2, name=Ivan Ivanov, language=C++, experience=4)]
+2018-08-12 22:32:26,728 INFO  - Method getAllTrainees is called in TraineeDao
+2018-08-12 22:32:26,732 INFO  - List of trainees: [Trainee(id=2, name=Denis Byhovsky, trainer=Trainer(id=1, name=Andrei Reut, language=Java, experience=6)), Trainee(id=1, name=Olga Borzdyko, trainer=Trainer(id=1, name=Andrei Reut, language=Java, experience=6)), Trainee(id=3, name=Sergei Sergeev, trainer=Trainer(id=1, name=Andrei Reut, language=Java, experience=6))]
+2018-08-12 22:32:26,732 INFO  - Method delete is called in TraineeDao
+2018-08-12 22:32:26,775 INFO  - Trainees with name 'serg' have been deleted successfully!
+2018-08-12 22:32:26,775 INFO  - Method getAllTrainees is called in TraineeDao
+2018-08-12 22:32:26,779 INFO  - List of trainees: [Trainee(id=2, name=Denis Byhovsky, trainer=Trainer(id=1, name=Andrei Reut, language=Java, experience=6)), Trainee(id=1, name=Olga Borzdyko, trainer=Trainer(id=1, name=Andrei Reut, language=Java, experience=6))]
+2018-08-12 22:32:26,779 INFO  - Method getById is called in TrainerDao
+2018-08-12 22:32:26,781 INFO  - Trainer(id=2, name=Ivan Ivanov, language=C++, experience=4) has been found successfully!
+2018-08-12 22:32:26,782 INFO  - Method getById is called in TraineeDao
+2018-08-12 22:32:26,787 INFO  - Trainee(id=1, name=Olga Borzdyko, trainer=Trainer(id=1, name=Andrei Reut, language=Java, experience=6)) has been found successfully!
+2018-08-12 22:32:26,787 INFO  - Method updateExperience is called in TrainerDao
+2018-08-12 22:32:26,826 INFO  - Method getById is called in TrainerDao
+2018-08-12 22:32:26,827 INFO  - Trainer(id=2, name=Ivan Ivanov, language=C++, experience=22) has been found successfully!
+2018-08-12 22:32:26,828 INFO  - Method updateTrainer is called in TraineeDao
+2018-08-12 22:32:26,840 INFO  - Method getById is called in TraineeDao
+2018-08-12 22:32:26,842 INFO  - Trainee(id=1, name=Olga Borzdyko, trainer=Trainer(id=2, name=Ivan Ivanov, language=C++, experience=22)) has been found successfully!
